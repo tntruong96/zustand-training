@@ -1,15 +1,16 @@
-import { useState } from "react";
 import "./App.css";
-import Counter from "./components/Counter/Counter";
-import Counter2 from "./components/Counter2/Counter";
+import BookForm from "./components/BookForm";
+import ListBook from "./components/ListBook";
 
 function App() {
   console.log("rerender app");
 
   return (
     <>
-      <Counter />
-      <Counter2 />
+      {/* <Counter />
+      <Counter2 /> */}
+      <BookForm />
+      <ListBook />
     </>
   );
 }
