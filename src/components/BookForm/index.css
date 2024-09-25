@@ -40,8 +40,9 @@
     display: flex;
     justify-content: center;
     background-color: white;
-    padding: 8px;
+    padding: 12px;
     color: black;
+    border-radius: 4px;
 }
 
 .btn{

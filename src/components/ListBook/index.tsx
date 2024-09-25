@@ -17,6 +17,7 @@ const ListBook = () => {
       <h1>List Book</h1>
       <div className="book-container">
         <div className="count-number">
+          <div>Number of Item: {listBook.length}</div>
           <div>Available: {countAvailable}</div>
           <div>Issued: {countIssue}</div>
         </div>

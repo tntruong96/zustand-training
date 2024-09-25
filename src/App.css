@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.app-container {
+  border: 1px solid black;
+  padding: 24px;
+  border-radius: 16px;
+}

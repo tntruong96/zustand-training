@@ -6,12 +6,10 @@ function App() {
   console.log("rerender app");
 
   return (
-    <>
-      {/* <Counter />
-      <Counter2 /> */}
+    <div className="app-container">
       <BookForm />
       <ListBook />
-    </>
+    </div>
   );
 }
 
